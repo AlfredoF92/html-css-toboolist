@@ -64,8 +64,7 @@ img {
 
 .menu-todolist{
     padding: 30px;
-    height: 400px;
-    
+    height: auto;
 }
 
 .pulsante {
@@ -86,4 +85,91 @@ img {
 .pulsante_disattivato{
     background-color: rgb(241, 241, 241);
     font-weight: 400;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.etichetta{
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 400;
+    border: 1px solid gray;
+    
+}
+
+
+.list-item li{
+    margin: 20px;
+}
+
+.etichetta {
+    padding: 3px 9px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #457cdb;
+    font-family: Arial;
+}
+
+
+
+
+.etichetta_color_Editorial{
+    background-color: rgb(80, 147, 209);
+}
+
+.etichetta_color_Q1{
+    background-color: rgb(194, 80, 209);
+}
+
+.etichetta_color_Reqruiting{
+    background-color: rgb(80, 209, 149);
+}
+
+.etichetta_color_Mobile{
+    background-color: rgb(212, 153, 75);
+}
+
+
+.etichetta_color_Sales{
+    background-color: rgb(179, 231, 110);
+}
+
+.icona_check{
+    padding: 3px 9px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #457cdb;
+    font-family: Arial;
+}
+.icona_No{
+    padding: 3px 9px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #457cdb;
+    font-family: Arial;
+}
+
+span.icona_check {
+    margin-right: 10px;
+    background: #b1e1b1;
+    color: green;
+}
+
+span.icona_No{
+    margin-right: 10px;
+    background: rgb(238, 183, 179);
+    color: rgb(160, 25, 20);
 }
